@@ -1,0 +1,19 @@
+{
+  "name": "expressbro",
+  "version": "1.0.0",
+  "description": "new blog project to  study express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js ",
+    "dev": "nodemon index.js"
+  },
+  "author": "Ashish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5"
+  }
+}
